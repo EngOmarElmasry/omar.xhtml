@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+html {
+  box-sizing: border-box;
+  scrollbar-color: #9e4673 #3d4a59;
+  scroll-behavior: smooth;
+  caret-color: #ffffff;
+  background-color: #f2f2f2;
+}
+::selection {
+  background-color: black;
+  color: goldenrod;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  font-family: "poppins";
+  font-weight: bold;
+  font-size: 20px;
+  list-style: none;
+  text-decoration: none;
+  color: wheat;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+}
+hr {
+  width: 70%;
+  margin: 20px auto;
+  border: solid 1px darkmagenta;
+}
+header {
+  background-color: #3d4a59;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 5px;
+}
+h2 {
+  font-size: 25px;
+  padding: 20px;
+}
+.flex {
+  display: flex;
+}
+.main-list {
+  padding: 25px;
+  position: relative;
+  transition: 0.5s linear;
+}
+.main-link{
+    padding: 8px 15px;
+    transition: 0.5s linear;
+}
+.main-link:hover {
+  background-color: transparent;
+  border-radius: 10px;
+  color: cyan;
+  box-shadow: 0 0 5px  cyan,0 0 10px cyan;
+}
+.two {
+  display: none;
+}
+.sub-ul{
+    display: none;
+    position: absolute;
+    background-color: #3d4a59;
+    padding: 10px;
+    border-radius: 5px;
+    border-top: 1px solid cyan;
+    top: 80px;
+    left: -10px;
+    width: 150px;
+}
+.sub-ul li{
+    padding: 8px 0;
+}
+.sub-of-js{
+    left: 20px;
+}
+.sub-ul li a{
+    font-size: 14px;
+}
+.sub-ul li a:hover{
+    color: cyan;
+    font-weight: bold;
+    transition: 0.5s linear;
+}
+.main-list:hover .sub-ul{
+    display: block;
+}
+.sub-sub-ul{
+    display: none;
+    position: absolute;
+    background-color: #3d4a59;
+    padding: 10px;
+    border-radius: 5px;
+    top: 27px;
+    left: 142px;
+    width: 150px;
+}
+.mini:hover .sub-sub-ul{
+    display: block;
+}
+main{
+  color: #3d4a59;
+  height: calc(100vh - 151px);
+  font-size: 30px;
+  line-height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer{
+  padding: 20px 0;
+  background-color: #3d4a59;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 5px;
+}

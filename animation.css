@@ -1,0 +1,78 @@
+/*
+**************
+Animation For Big Screen
+**************
+*/
+header {
+  animation: down 2s 1;
+}
+h2 {
+  animation: ltr 2s 1;
+}
+.sub-ul,
+.sub-sub-ul {
+  animation: hover 1s 1;
+}
+span {
+  animation: love 1.5s infinite linear;
+}
+@keyframes down {
+  0% {
+    transform: translateY(-100px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes ltr {
+  0% {
+    transform: translateX(-300px);
+    color: cyan;
+  }
+  50% {
+    transform: translateX(500px);
+  }
+  75% {
+    transform: translateX(-400px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes hover {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes love {
+  0%,100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+/*
+**************
+Animation For Small Screen
+**************
+*/
+.show,
+.sub-div,
+.sub-sub-div {
+  animation: move 1s 1;
+}
+@keyframes move {
+  0% {
+    transform: translateX(100px);
+  }
+  50% {
+    transform: translateX(-100px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

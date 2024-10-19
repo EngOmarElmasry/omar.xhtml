@@ -1,0 +1,78 @@
+.two{
+    display: block;
+}
+.one{
+    display: none;
+}
+box-icon{
+filter: invert(7);
+transform: scale(1.5);
+}
+box-icon[name="plus-medical"]{
+    transform: scale(1.15);
+    padding: 4px;
+    position: absolute;
+    right: 40px;
+}
+input{
+    display: none;
+}
+.show{
+    display: none;
+}
+#first:checked + .show,
+input:not([id="first"]):checked + .sub-div,
+#box:checked + .sub-sub-div{
+    display: block;
+}
+.abs{
+    position: absolute;
+    top: 5px;
+    right: 30px;
+    border: none;
+}
+h2{
+    padding-top: 20px;
+}
+.sub-div{
+    display: none;
+}
+.sub-div li{
+    font-size: 17px;
+    padding: 10px 0 10px 35px;
+}
+.sub-div li a{
+    font-size: 15px;
+}
+.sub-div li:hover,
+.sub-sub-div li a:hover{
+    color: cyan;
+    letter-spacing: 2px;
+    transition: 0.4s linear;
+}
+label{
+    display: block;
+    padding: 20px;
+}
+label:hover,
+box-icon:hover{
+    color: cyan;
+    letter-spacing: 2px;
+    transition: 0.4s linear;
+    filter: none;
+}
+.sub-sub-div{
+    margin-left: 60px;
+    margin-top: -10px;
+    display: none;
+}
+.mini1{
+    margin-top: -20px;
+   margin-left: -20px;
+}
+.box1{
+    font-size: 17px;
+}
+.main-div{
+    border-bottom: 3px solid #1b1b1b;
+}
