@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="master.css" />
+    <link rel="stylesheet" href="animation.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="mobile.css" media="(max-width:800px)" />
+    <title>DropDown</title>
+  </head>
+  <body>
+    <header class="one">
+      <h2>Courses 4 Arab</h2>
+      <ul class="flex">
+        <li class="main-list">
+          <a class="main-link" href="#o">HTML</a>
+          <ul class="sub-ul">
+            <li><a href="#q">Full Courses</a></li>
+            <li><a href="#a">Crash Courses</a></li>
+            <li><a href="#v">Learn In 1h</a></li>
+          </ul>
+        </li>
+
+        <li class="main-list">
+          <a class="main-link" href="#m">CSS</a>
+          <ul class="sub-ul">
+            <li><a href="#w">Full Courses</a></li>
+            <li><a href="#t">CSS Examples</a></li>
+            <li style="position: relative;" class="mini">
+                <a href="#u">Mini Projects &nbsp; +</a>
+                <ul class="sub-sub-ul">
+                    <li><a href="#az">Project1</a></li>
+                    <li><a href="#qa">Project2</a></li>
+                    <li><a href="#io">Project3</a></li>
+                </ul>
+            </li>
+          </ul>
+        </li>
+        <li class="main-list">
+          <a class="main-link" href="#a">JavaScript</a>
+          <ul class="sub-ul sub-of-js">
+            <li><a href="#p">Coming Soon &#128293;</a></li>
+          </ul>
+        </li>
+      </ul>
+    </header>
+    <header class="two">
+        <h2>Courses 4 Arab</h2>
+        <label class="abs" for="first"><box-icon name='menu'></box-icon></label>
+        <input type="checkbox" id="first">
+        <div class="show">
+            <div class="main-div">
+               <label for="html">HTML&nbsp;<box-icon name='plus-medical'></box-icon></label>
+               <input type="checkbox" id="html">
+                <ul class="sub-div">
+                    <li>Full Courses</li>
+                    <li>Crash Courses</li>
+                    <li>Learn In 1h</li>
+                  </ul>
+            </div>
+            <div class="main-div">
+                <label for="css">CSS&nbsp;<box-icon name='plus-medical'></box-icon></label>
+               <input type="checkbox" id="css">
+                <ul class="sub-div">
+                    <li>Full Courses</li>
+                    <li>CSS Examples</li>
+                    <li style="position: relative;" class="mini1">
+                        <label class="box1" for="box">Mini Projects &nbsp; <box-icon name='plus-medical'></box-icon></label>
+                        <input type="checkbox" id="box">
+                        <ul class="sub-sub-div">
+                            <li><a href="#az">Project1</a></li>
+                            <li><a href="#qa">Project2</a></li>
+                            <li><a href="#io">Project3</a></li>
+                        </ul>
+            </div>
+            <div class="main-div">
+                <label for="js">JS&nbsp;<box-icon name='plus-medical'></box-icon></label>
+                <input type="checkbox" id="js">
+                <ul class="sub-div">
+                    <li>Coming Soon &#128293;</li>
+                  </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+      Eng.Omar ELmasry<br>Responsive Drop-down<br>Menu Bar<br>HTML & CSS Only
+    </main>
+    <footer>
+      Designed And Developed By Omar Elmasry <span>&#129505;</span>
+    </footer>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  </body>
+</html>
